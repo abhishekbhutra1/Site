@@ -1,0 +1,47 @@
+<html>
+<head>
+    <link href="workpage123.css" rel="stylesheet">
+    <script src="jquery-1.10.2.min.js"></script>
+    <script src="workpage123.js"></script>
+</head>
+
+<body>
+<div id="gallery">
+<div id="sidebar">
+    <ul>
+        <li><?php
+            session_start();
+            if(isset($_SESSION['name'])) {
+            $username = $_SESSION['name'];
+            echo "Hello"." ".($username);
+            }
+            else
+            echo "Hello Username";?></li>
+        <li><button id="create">CREATE</button>
+            <ul id="folders">
+                <li>Enter the folder name</li>
+                <li style="list-style: none;"><input type="text" id="foldername"></li>
+                <li><input type="submit" id="submit"></li>
+            </ul>
+        </li>
+        <li><button id="remove">REMOVE</button></li>
+    </ul>
+    <div class="directories">
+        <ul>
+            <li><button class="click">DIRECTORIES</button></li>
+        </ul>
+        <div class="dir">
+        </div>
+    </div>
+</div>
+    <div id="images" style="background-color: #ffb414">
+        <div id="form">
+            <form action="workpage123.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="uploadfile" value=""/>
+                <input type="submit" name="submit" value="Upload File"/>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.dialog.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.resizable.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.dialog.min.js"></script>
+</head>
+
+<body>
+<div id="Dialog1">hello</div>
+	<button class="click">Click</button>
+<script type="text/javascript">
+$('.click').click(function() {
+	$( "#Dialog1" ).dialog(); 
+});
+</script>
+</body>
+</html>

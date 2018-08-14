@@ -1,0 +1,59 @@
+body,html{
+	height:100%;
+	width:100%;
+	}
+	
+.banner{
+	background-image:url(images/Hyndman-Gallery2.jpg);
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	}
+	.fill{
+		width:100%;
+		height:100%;
+		}
+.navbar-default {
+  background-color:transparent;
+  border-color:#FFFFFF;
+  border-bottom-left-radius:100px;
+  padding:7px;
+  border-bottom-width:5px;
+  border-bottom-color:#F5BF02;
+}
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  }
+  #header{
+	  color:#FFF500;
+	  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	  font-weight:700;
+	  font-size:15px;
+	  } 
+.btn-info {
+  color:#FFFFFF;
+  font-weight:700;
+  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+  background-color:transparent;
+  border-color:#FFF500;
+  border-width:2px;
+  border-bottom-left-radius:30px;
+}
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  filter: alpha(opacity=50);
+  opacity:0;
+}
+ 
