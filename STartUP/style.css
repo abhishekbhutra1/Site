@@ -1,0 +1,15 @@
+.navigator{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)),url("images/politics.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;   
+}
+
+#head{
+    text-align:center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left:70%;
+}
